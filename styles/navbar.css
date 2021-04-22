@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/* DEVELOPER: Sarah Huezo, IS117-002, Spring 2021 */
+
+/* CSS Document */
+
+body{
+	margin: 75px;
+}
+
+nav{
+	background-color: lightgoldenrodyellow;
+}
+
+.navbar-toggler-icon{
+	color: black;
+}
+
+.nav-link{
+	color: gray;
+	text-align: center;
+}
+
+.navbar-collapse{
+	/*justify-content: center;*/
+	justify-content: flex-end;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	align-content: center;
+
+}
+
+.text-muted{
+	position: sticky;
+}
+
+#homebutton{
+	padding: -100px;
+	justify-content: flex-end;
+	align-content: flex-end;
+	flex-wrap: wrap;
+}
+
+/*NAV STYLE ENDS HERE>*/
+
+#logo{
+	align-content: center;
+}
+
+.navbar-toggler{
+	color: black;
+}
+
+#heroimg{
+	flex: auto;
+	align-content: center;
+	padding: 150px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#card1{
+	float: left;
+}
+
+#card2{
+	float: right;
+}
+
+.jumbotron{
+	width: 40%;
+	align-self: center;
+	clear:both;
+	
+}
+
+h1{
+	padding:0px;
+	font-weight: bolder;
+	flex-wrap: wrap;
+	
+}
+
+h2{
+	padding-top: 75px;
+	text-align: center;
+}
+
+
+.card{
+	display: flex;
+	align-content: center;
+}
+
+.row{
+	display: block;
+	align-content: center;
+	text-align: center;
+}
+
+.socials{
+	display: block;
+	flex-wrap: wrap;
+	padding-top: 25px;
+	align-content: center;
+	text-align: center;
+}
+
+.foodcards{
+	display:flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	align-content: flex-end;
+	padding: 15px;
+justify-content: center;
+	
+}
+
+.cardL .cardRT .cardRB{
+	padding: 45px;
+}
+
+.snackbox{
+	display: flex;
+justify-content: center;
+}
+
+#click{
+	opacity: 50%;
+	justify-content: center;
+	align-content: center;
+}
+
+#ads{
+	display: flex;
+	align-content: space-between;
+}
+
+.jumbotron{
+	display: block;
+	width: 100%;
+	height: 50%;
+	align-content: center;
+	justify-content: center;
+}
+
+#card1{
+	display: flex;
+}
+
+#card2{
+	display: block;
+	align-content: center;
+	justify-content: center;
+}
+
+.p1{
+	float: right;
+	padding-left: 45px;
+	margin: 45px;
+}
+
+.pic1{
+	float: left;
+	padding: 5px, 75px 45px, 25px;
+	width: 250px;
+	
+}
+
+.p2{
+	float: left;
+	padding-right: 45px;
+	margin: 45px;
+}
+
+.pic2{
+	align-content: center;
+	float: right;
+	padding: 5px, 75px 45px, 25px;
+	width: 250px;
+
+	
+}
+
+.news{
+	display: flex;
+}
+
+.historypic1{
+	float: left;
+	padding-left: 100px;
+	width: 15em;
+	padding-top: 5em;
+}
+
+.history1{
+	padding-top: 5em;
+	padding-left: 20em;
+}
+
+.historypic2{
+	padding-top: 5em;
+	float: right;
+	padding-right: 100px;
+	width: 15em;
+}
+
+.history2{
+	padding-top: 5em;
+	padding-right: 20em;
+}
+
+.brand{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
